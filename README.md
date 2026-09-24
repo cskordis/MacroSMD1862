@@ -15,10 +15,13 @@ CLK_OUT at 1.789MHz (7.159MHz ÷ 4) returned to the CDP1802 for display timing
 
 The design is built around a single ATF22V10C PLD (U7) handling all chroma and luminance decode logic, supported by standard 74HC logic for oscillator, phase generation, colour latching, burst gating and background counter functions. The PLD is programmed using equations derived from David S. Madole's DSM1862 project, adapted by Costas Skordis for this implementation.
 
-The complete design fits on a 24-pin DIP footprint compatible with the original CDP1862C socket, requiring no modification to the VP590 board.
+The complete design fits on a 24-pin DIP footprint compatible with the original CDP1862C socket, requiring no modification to the VP590 board. There are 2 footprint versions, "Through Hole" and "SMD", see below.
 
+<img width="1581" height="2672" alt="MacroSMD1862_1" src="https://github.com/user-attachments/assets/85d450b0-3ce0-441b-bc96-871f458aecae" />
 
 Image below is the VIP-S with expansion board connected with the VP590 Color and VP595 Simple Sound board with the Macro1862 plugged in. The VIPTape II is connected as a source of programs.
 
 <img width="4280" height="4265" alt="cosmac-vip-s_Macro1862_small" src="https://github.com/user-attachments/assets/8533d17c-ef77-4493-be89-bf857d314252" />
+
+
 
